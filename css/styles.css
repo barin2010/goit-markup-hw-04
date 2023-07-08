@@ -42,9 +42,11 @@ h1,h2,h3,h4,h5,h6,p{
  }
 .div-header-menu{
   display: flex;
+  align-items: center;
+    
 }
 .container{
-width: 1158px;
+max-width:  1158px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -98,7 +100,9 @@ gap: 40px
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0
+  padding: 24px 0;
+  position: relative;
+  color:var(--hover-color);
 }
 .header-menu-item:hover,
 .header-menu-item:focus {
@@ -155,16 +159,16 @@ margin-left: auto;
 .business {
   background: var(--primary-black-color);
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-  rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.business-contant{
+/* .business-contant{
 
-}
+} */
 
 .business-logo {
   color: var(--basic-white-color);
@@ -216,10 +220,12 @@ margin-left: auto;
 }
 .strategy-item{
 
-/* }
-.strategy-header{ */
-  
 }
+
+
+/* .strategy-header{ 
+  
+} */
 .strategy-icon{
   display: flex;
   align-items: center;
@@ -229,6 +235,9 @@ margin-left: auto;
   border-radius: 4px;
   margin-bottom: 8px;
 }
+/* .strategy-icon-box{
+ 
+} */
  .visually-hidden{
 position: absolute;
   width: 1px;
@@ -277,9 +286,9 @@ width: calc((100% - 72px) / 4);
 .doing {
   padding-bottom: 120px;
 }
-.what-are-we-doing{
+/* .what-are-we-doing{
 
-}
+} */
 
 .doing-possibilities {
   color: var(--primary-black-color);
@@ -301,7 +310,7 @@ width: calc((100% - 72px) / 4);
 
 
 .doing-images {
-  flex-basis: calc((100% - 3 * 16px) / 3));
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* --------------------------------------our team ----------------------------------------- */
@@ -331,7 +340,7 @@ gap: 24px;
 
 .team-images {
   background-color: var(--basic-white-color);
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .box-team-description{
@@ -364,9 +373,9 @@ gap: 24px;
 padding-top: 120px;
 padding-bottom: 120px; 
 }
-.customers-box{
+/* .customers-box{
 
-}
+} */
 .customers-name{
   font-size: 36px;
   line-height: 1.11;
@@ -428,9 +437,9 @@ margin-right: 120px;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-sicial{
+/* .footer-sicial{
 
-}
+} */
 .social-name{
   font-weight: 500;
   font-size: 16px;
@@ -510,10 +519,10 @@ background-color: #e7e9fc;
   /* width: calc((100% - 48px) / 3); */
   
 }
-.concept-list-box{
+/* .concept-list-box{
  
 
-}
+} */
 
 .concept-images {
 width: calc((100% - 48px) / 3);
@@ -533,9 +542,9 @@ width: calc((100% - 48px) / 3);
 .strategy-page-item{
 margin-bottom: 8px;
 }
-.strategy-page-description{
+/* .strategy-page-description{
 
-}
+} */
 .images-logo-name {
   color: var(--primary-black-color);
   font-size: 20px;
