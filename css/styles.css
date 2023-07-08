@@ -9,6 +9,7 @@
   --hover-color: #404bbf;
   --border-button-color: #e7e9fc;
   --basic-color-icon:#8e8f99;
+  --color-focus-footer:#31d0aa;
 }
 
 ul,
@@ -354,6 +355,10 @@ p {
   background-color: var(--basic-white-color);
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .box-team-description {
@@ -381,7 +386,35 @@ p {
   text-align: center;
 
 }
+.team-images-box{
+  padding: 32px 0;
+}
+.team-box-icon{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-social-icon{
+  width: 40px;
+  height: 40px;
+}
+.team-social-icon-link{
+  width: 100%;
+  height: 100%;
+  background-color: var(--basic-color-logo);
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-social-icon-link:hover,
+.team-social-icon-link:focus{
+  background-color: var(--hover-color);
 
+}
+.team-social-icon-svg{
+  fill:var(--secondary-white-color)
+}
 /* -----------------------------customers--------------------------- */
 .customers {
   padding-top: 120px;
@@ -418,7 +451,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  color:var(--basic-color-icon)
+  color:var(--basic-color-icon);
+  transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-icon-link:hover,
 .customer-icon-link:focus{
@@ -477,7 +512,7 @@ fill: currentColor;
   max-width: 264px;
 }
 
-/* .footer-sicial {} */
+/* .footer-social {} */
 
 .social-name {
   font-weight: 500;
@@ -496,7 +531,24 @@ fill: currentColor;
 .social-icon {
   width: 40px;
   height: 40px;
-  background-color: #e7e9fc;
+  /* background-color: #4d5ae5; */
+  
+}
+.footer-social-link{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color:var(--basic-color-logo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+  background-color:var(--color-focus-footer);
+}
+.footer-social-svg{
+  fill: var(--secondary-white-color);
 }
 
 /* ---------------------------------PORTFOLIO----------------------------------------- */
