@@ -675,6 +675,11 @@ fill: #ffffff;
   padding: 12px 24px;
   border: 1px solid var(--border-button-color);
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .button-description:hover,
@@ -714,6 +719,8 @@ fill: #ffffff;
   /* width: calc((100% - 48px) / 3); */
   gap: 24px;
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .images-logo:hover{
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
