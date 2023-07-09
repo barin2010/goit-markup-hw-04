@@ -380,7 +380,7 @@ p {
 }
 
 .box-team-description {
-  padding: 32px 16px
+  padding: 32px 0;
 }
 
 .team-family {
@@ -405,7 +405,7 @@ p {
 
 }
 .team-images-box{
-  padding: 32px 0;
+  
 }
 .team-box-icon{
   display: flex;
