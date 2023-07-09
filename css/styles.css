@@ -114,7 +114,20 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0
+  padding: 24px 0;
+  position: relative;
+  color: var(--hover-color);
+}
+.header-menu-item ::before{
+  content: ;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color:var(--hover-color);
+  border-radius: 2px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .header-menu-item:hover,
@@ -386,9 +399,9 @@ p {
   text-align: center;
 
 }
-.team-images-box{
-  padding: 32px 0;
-}
+/* .team-images-box{
+  
+} */
 .team-box-icon{
   display: flex;
   justify-content: center;
