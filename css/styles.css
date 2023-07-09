@@ -118,8 +118,8 @@ p {
   position: relative;
   color: var(--hover-color);
 }
-.header-menu-item ::after{
-  content: ;
+.header-menu-item::after{
+  content:"" ;
   position: absolute;
   left: 0;
   bottom: -1px;
