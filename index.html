@@ -410,7 +410,18 @@
         </div>
       </div>
     </footer>
-    <div class="modal"></div>
+    <div data-modal class="modal is-hidden">
+      <div class="modal-window">
+        <button class="modal-window-button" data-modal-close type="button">
+          <svg class="modal-button-svg" width="8" height="8">
+            <use
+              class="modal-close-black"
+              href="./images/icons.svg#close-black"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
