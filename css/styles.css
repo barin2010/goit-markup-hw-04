@@ -404,9 +404,9 @@ p {
   text-align: center;
 
 }
-/* .team-images-box{
-  
-} */
+.team-images-box{
+  padding: 32px 0;
+}
 .team-box-icon{
   display: flex;
   justify-content: center;
