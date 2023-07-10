@@ -655,12 +655,12 @@ fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.modal-button-svg:hover
+/* .modal-button-svg:hover
 .modal-button-svg:focus{
 /* fill: #ffffff;
 background-color: #404bbf;
   border: none; */
-}
+} */
 
 /* ---------------------------------PORTFOLIO----------------------------------------- */
 
@@ -742,18 +742,19 @@ background-color: #404bbf;
   gap: 24px;
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
-}
 .images-logo:hover{
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    
-}
-.images-logo:hover.concept-images-text,
-.images-logo:focus.concept-images-text{
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    }
+
+.images-logo:hover.concept-images-text{
   transform: translateY(0%);
-}
+  }
+
+
 
 
 .concept-images-open{
@@ -762,6 +763,9 @@ overflow: hidden;
 }
 
 .concept-images-text{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
   position: absolute;
   top: 0;
   font-size: 16px;
