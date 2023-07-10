@@ -32,14 +32,16 @@
 
           <ul class="header-list list">
             <li class="header-list-menu link">
-              <a class="header-menu-item link" href="./index.html">Studio</a>
-            </li>
-            <li class="header-list-menu link">
-              <a class="header-menu-item link" href="./portfolio.html"
-                >Portfolio</a
+              <a class="header-menu-item link current" href="./index.html"
+                >Studio</a
               >
             </li>
             <li class="header-list-menu link">
+              <a class="header-menu-item link " href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-list-menu link ">
               <a class="header-menu-item link" href="">Contacts</a>
             </li>
           </ul>
@@ -410,9 +412,10 @@
         </div>
       </div>
     </footer>
-    <div data-modal class="modal is-hidden">
+    <!-- -----------modal----------- -->
+    <div class="modal is-hidden" data-modal>
       <div class="modal-window">
-        <button class="modal-window-button" data-modal-close type="button">
+        <button class="modal-window-button" type="button" data-modal-close>
           <svg class="modal-button-svg" width="8" height="8">
             <use
               class="modal-close-black"
@@ -422,6 +425,6 @@
         </button>
       </div>
     </div>
-    <script src="./scripts/script.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
