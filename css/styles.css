@@ -750,17 +750,18 @@ background-color: #404bbf;
     0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
-.images-logo:hover.overlay-parph,
-.images-logo:focus.overlay-parph{
+.images-logo:hover.concept-images-text,
+.images-logo:focus.concept-images-text{
   transform: translateY(0%);
 }
 
 
-.overlay{
+.concept-images-open{
 position: relative;
 overflow: hidden;
 }
-.overlay-parph{
+
+.concept-images-text{
   position: absolute;
   top: 0;
   font-size: 16px;
