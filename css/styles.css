@@ -486,12 +486,10 @@ p {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-icon-link:hover,
-.customer-icon-link:focus {
+.customer-icon-link:focus{
   border-color: var(--hover-color);
   color: var(--hover-color);
-  box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+  
 }
 .customer-icon-logo {
   fill: currentColor;
@@ -724,7 +722,7 @@ background-color: #404bbf;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images-logo:hover
+.images-logo:hover,
 .images-logo:focus{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
