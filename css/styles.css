@@ -464,7 +464,7 @@ p {
 }
 .customer-icon-link {
   width: 100%;
-  height: 100%;
+  height: 10%;
   border: 1px solid var(--basic-color-icon);
   border-radius: 4px;
   display: flex;
